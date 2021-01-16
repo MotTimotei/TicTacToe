@@ -11,12 +11,12 @@ public class TicTacToe implements ActionListener {
     JFrame frame = new JFrame();
     JPanel tittle_panel = new JPanel();
     JPanel button_panel = new JPanel();
-    JLabel textfield = new JLabel();//Timi
+    JLabel textfield = new JLabel();
     JButton[] buttons = new JButton[9];
     boolean player1_turn;
     private int btns_clicked = 0;
 
-    TicTacToe(){//Try to see what happens
+    TicTacToe(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(450, 570);
         frame.getContentPane().setBackground(new Color(20, 189, 172));
