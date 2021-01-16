@@ -115,7 +115,7 @@ public class TicTacToe implements ActionListener {
             i= i+3;
         }
         return null;
-    }
+    }//Timi
     public String[] coll(){
         int i = 0;
         for(int j = 0;j<3;j++){
