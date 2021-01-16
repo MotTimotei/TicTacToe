@@ -11,7 +11,7 @@ public class TicTacToe implements ActionListener {
     JFrame frame = new JFrame();
     JPanel tittle_panel = new JPanel();
     JPanel button_panel = new JPanel();
-    JLabel textfield = new JLabel();
+    JLabel textfield = new JLabel();//Timi
     JButton[] buttons = new JButton[9];
     boolean player1_turn;
     private int btns_clicked = 0;
@@ -115,7 +115,7 @@ public class TicTacToe implements ActionListener {
             i= i+3;
         }
         return null;
-    }//Timi
+    }
     public String[] coll(){
         int i = 0;
         for(int j = 0;j<3;j++){
